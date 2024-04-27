@@ -11,7 +11,7 @@ import CardItem from "@/components/Items/CardItem";
 
 function Events() {
   return (
-    <div>
+    <div id='events'>
       <div>
         <div className="min-h-[41rem] border-b-8 border-red-500 max-w-screen-xl ">
           <div className="heading text-start txtcolor m-7 text-5xl"><h1>EVENTS</h1></div>

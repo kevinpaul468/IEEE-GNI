@@ -2,7 +2,7 @@ import React from 'react'
 
 function Societies() {
   return (
-    <div>
+    <div id='societies'>
       
     </div>
   )

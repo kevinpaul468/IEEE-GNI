@@ -3,8 +3,8 @@ import './../index.css'
 
 function AboutUs() {
   return (
-    <div>
-      <div className="heading text-center txtcolor m-7 text-5xl"><h1>ABOUT US</h1></div>
+    <div id='aboutus'>
+      <div className="heading text-center txtcolor m-7 text-5xl" ><h1>ABOUT US</h1></div>
         <div className='flex justify-around gap-8'>
         <b className='w-1/2'>
         IEEE is a non-profit organization, and the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity. IEEE and its members inspire a global community to innovate for a better tomorrow through its highly cited publications, conferences, technology standards, and professional and educational activities. IEEE is the trusted “voice” for engineering, computing, and technology information around the globe.
