@@ -6,6 +6,7 @@ import Events from './Pages/Events'
 import Home from './Pages/Home'
 import Memebers from './Pages/Memebers'
 import Nav from './Pages/Nav'
+import Societies from './Pages/Societies'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Events />
       <Memebers />
       <Contact />
+      <Societies />
 
       
     </>
