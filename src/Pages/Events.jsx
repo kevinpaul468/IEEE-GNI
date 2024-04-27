@@ -23,7 +23,7 @@ function Events() {
             }}>
             <CarouselContent>
               <CarouselItem className="md:basis-1/2 lg:basis-1/3">
-               <CardItem />
+               <CardItem  cardTitlee={"Brumanas"} />
               </CarouselItem>
               <CarouselItem className="md:basis-1/2 lg:basis-1/3">
               <CardItem />

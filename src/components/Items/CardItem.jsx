@@ -9,19 +9,19 @@ import {
   } from "@/components/ui/card"
   
 
-function CardItem() {
+function CardItem({cardTitlee ="title" , cardDescription ='descrition', cardContent ='content',cardFooter='footer'}) {
   return (
     <div>
         <Card>
   <CardHeader>
-    <CardTitle>Card Title</CardTitle>
-    <CardDescription>Card Description</CardDescription>
+    <CardTitle>{cardTitlee}</CardTitle>
+    <CardDescription>{cardDescription}</CardDescription>
   </CardHeader>
   <CardContent>
-    <p>Card Content</p>
+    <p>{cardContent}</p>
   </CardContent>
   <CardFooter>
-    <p>Card Footer</p>
+    <p>{cardFooter}</p>
   </CardFooter>
 </Card>
 
