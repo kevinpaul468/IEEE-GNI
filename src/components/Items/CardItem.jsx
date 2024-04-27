@@ -9,23 +9,14 @@ import {
   } from "@/components/ui/card"
   
 
-function CardItem({cardTitlee ="title" , cardImg ='https://hire4event.com/blogs/wp-content/uploads/2019/04/Artist-For-College-Events.jpg', cardContent ='content',cardFooter='footer'}) {
+function CardItem({cardTitlee ="title" , cardImg ='https://hire4event.com/blogs/wp-content/uploads/2019/04/Artist-For-College-Events.jpg', cardContent ='content of the event',cardFooter='footer'}) {
   return (
     <div>
-        <Card>
-  <CardHeader>
-    <CardTitle>{cardTitlee}</CardTitle>
-    <CardDescription><img src={cardImg} alt="img" /></CardDescription>
-  </CardHeader>
-  <CardContent>
-    <p>{cardContent}</p>
-  </CardContent>
-  <CardFooter>
-    <p>{cardFooter}</p>
-  </CardFooter>
-</Card>
-
-      
+      <div className="border border-white p-4 rounded-xl">
+      <h2 className='text-4xl txt text-center font-bold'>{cardTitlee}</h2>
+    <div className=" flex justify-center items-center"><img src={cardImg} alt="img " className='cardImg m-4  rounded-2xl overflow-auto' /></div>
+      <div className="dec txt text-center text-lg">{cardContent}</div>
+      </div>
     </div>
   )
 }
