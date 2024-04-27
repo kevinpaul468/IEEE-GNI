@@ -2,22 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-.txtcolor{
-    color: rgb(16, 106, 118);
-    text-decoration: underline;
+.txtcolor {
+  color: rgb(16, 106, 118);
+  text-decoration: underline;
 }
-.cardImg{
- max-width: 500px;
-}
-
-.txt{
-    color: white;
-}
-.navBg{
-    background-image: linear-gradient( 86.3deg,  rgba(0,119,182,1) 3.6%, rgba(8,24,68,1) 87.6% );
+.cardImg {
+  max-width: 500px;
 }
 
-.eventsbg{
-    background: rgb(4,0,36);
-    background: linear-gradient(90deg, rgba(4,0,36,1) 1%, rgba(8,120,129,1) 56%, rgba(52,120,177,1) 90%);
+.txt {
+  color: white;
+}
+.navBg {
+    background: rgb(0,61,124);
+    background: radial-gradient(circle, rgba(0,61,124,1) 4%, rgba(36,82,131,1) 35%, rgba(4,46,92,1) 52%, rgba(19,41,45,1) 98%);
+}
+
+.eventsbg {
+  background: rgb(4, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(4, 0, 36, 1) 1%,
+    rgba(8, 120, 129, 1) 56%,
+    rgba(52, 120, 177, 1) 90%
+  );
 }
