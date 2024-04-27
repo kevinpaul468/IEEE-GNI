@@ -9,13 +9,13 @@ import {
   } from "@/components/ui/card"
   
 
-function CardItem({cardTitlee ="title" , cardDescription ='descrition', cardContent ='content',cardFooter='footer'}) {
+function CardItem({cardTitlee ="title" , cardImg ='https://hire4event.com/blogs/wp-content/uploads/2019/04/Artist-For-College-Events.jpg', cardContent ='content',cardFooter='footer'}) {
   return (
     <div>
         <Card>
   <CardHeader>
     <CardTitle>{cardTitlee}</CardTitle>
-    <CardDescription>{cardDescription}</CardDescription>
+    <CardDescription><img src={cardImg} alt="img" /></CardDescription>
   </CardHeader>
   <CardContent>
     <p>{cardContent}</p>

@@ -7,6 +7,11 @@ import Home from './Pages/Home'
 import Memebers from './Pages/Memebers'
 import Nav from './Pages/Nav'
 import Societies from './Pages/Societies'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+
+
+
 
 
 function App() {
@@ -21,7 +26,7 @@ function App() {
       <Memebers />
       <Contact />
       <Societies />
-
+    
       
     </>
   )

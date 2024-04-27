@@ -6,7 +6,7 @@ export default function Nav() {
     <div className="">
     
 
-      <div className="flex justify-between text-center  border-b-2 navBg border-gray-200  bg-red-500  fixed top-0 w-full">
+      <div className="flex justify-between text-center  border-b-2 navBg border-gray-200  bg-red-500  z-10 fixed top-0 w-full">
         <span className="m-5 text-slate-200	text-xl cursor-pointer">GNITC</span>
         <span className="m-5 text-slate-200	 cursor-pointer">About us</span>
         <span className="m-5  text-slate-200	 cursor-pointer">Societies</span>
