@@ -4,6 +4,7 @@ import path from "path"
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:  '/IEEE-GNI',
   plugins: [react()],
   resolve: {
     alias: {
