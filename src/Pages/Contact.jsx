@@ -1,12 +1,13 @@
 import React from 'react'
+import { SocialIcon } from 'react-social-icons'
 
 function Contact() {
   return (
-    <div>
-      <div>
-        <div id='contact' className="min-h-[41rem] bg-slate-400 flex justify-center items-center  border-b-8 border-red-500 "><p className='text-9xl'>Contact</p></div>
-      
-    </div>
+    <div id='contact' className='flex justify-center gap-10'>
+      <SocialIcon url="https://www.instagram.com/" />
+      <SocialIcon url='https://github.com' />
+      <SocialIcon url='https://www.linkedin.com' />
+
     </div>
   )
 }
