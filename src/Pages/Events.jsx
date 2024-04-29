@@ -1,11 +1,16 @@
 import React from "react";
 import EventInfo from "@/info/events";
+import Autoplay from "embla-carousel-autoplay";
+
+
+
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
+  
 } from "@/components/ui/carousel";
 
 import CardItem from "@/components/Items/CardItem";
@@ -16,11 +21,31 @@ function Events() {
       <div>
         <div className="   eventsbg border-b-8 border-red-500  w-full">
           <p>.</p>
-          <div className="heading  txtcolor  text-5xl  ">
-            <p className=" ml-[25px] mt-10 text-center text-white">EVENTS</p>
+          <div className=" flex justify-between items-center mt-11 gap-3">
+            <div className=" heading ">Events</div>
+            <div className=" flex justify-center items-center mt-1 mr-6 gap-3">
+           
+              <span className=" btn1 text-white border-2 rounded-xl text-lg cursor-pointer l"
+              >
+                Previous
+              </span>
+              <span className=" btn1 text-white border-2 rounded-xl text-lg cursor-pointer ">
+                Next
+              </span>
+            </div>
           </div>
-          <div className="cerodrag m-10">
-            <Carousel>
+          <div className="cerodrag m-6">
+            <Carousel
+              opts={{
+                align: "start",
+                loop: true,
+              }}
+              plugins={[
+                Autoplay({
+                  delay: 3000,
+                }),
+              ]}
+            >
               <CarouselContent>
                 {EventInfo.map((eve) => {
                   return (
