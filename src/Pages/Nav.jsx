@@ -26,8 +26,8 @@ export default function Nav() {
           </span>
         </div>
         <div className="flex justify-between text-center txt gap-14 mr-10 m-5">
-          <span className="cursor-pointer" href="https://www.ieee.org/">IEEE.org</span>
-          <span className="cursor-pointer" href="https://ieeehyd.org/">IEEE Hyderabad</span>
+          <span className="cursor-pointer"><a href="https://www.ieee.org/">IEEE.org</a></span>
+          <span className="cursor-pointer"><a href="https://ieeehyd.org/">IEEE Hyderabad</a></span>
         </div>
       </div>
     </div>
