@@ -24,7 +24,7 @@
   );
 }
 
-.eventsbg {
+body {
   background: rgb(4, 0, 36);
   background: linear-gradient(
     90deg,
@@ -32,6 +32,7 @@
     rgba(8, 120, 129, 1) 56%,
     rgba(52, 120, 177, 1) 90%
   );
+
 }
 
 .btn1 {

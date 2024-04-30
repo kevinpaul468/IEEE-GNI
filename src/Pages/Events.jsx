@@ -2,15 +2,12 @@ import React from "react";
 import EventInfo from "@/info/events";
 import Autoplay from "embla-carousel-autoplay";
 
-
-
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-  
 } from "@/components/ui/carousel";
 
 import CardItem from "@/components/Items/CardItem";
@@ -18,15 +15,13 @@ import CardItem from "@/components/Items/CardItem";
 function Events() {
   return (
     <div id="events">
-      <div>
-        <div className="   eventsbg border-b-8 border-red-500  w-full">
+      <div className="h-screen">
+        <div className="   eventsbg border-b-8   w-full">
           <p>.</p>
-          <div className=" flex justify-between items-center mt-11 gap-3">
+          <div className=" flex justify-between items-center mt-6 gap-3">
             <div className=" heading ">Events</div>
             <div className=" flex justify-center items-center mt-1 mr-6 gap-3">
-           
-              <span className=" btn1 text-white border-2 rounded-xl text-lg cursor-pointer l"
-              >
+              <span className=" btn1 text-white border-2 rounded-xl text-lg cursor-pointer l">
                 Previous
               </span>
               <span className=" btn1 text-white border-2 rounded-xl text-lg cursor-pointer ">
