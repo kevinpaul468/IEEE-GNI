@@ -9,7 +9,7 @@ import {
   } from "@/components/ui/card"
   
 
-function CardItem({cardTitlee ="title" , cardImg ='https://hire4event.com/blogs/wp-content/uploads/2019/04/Artist-For-College-Events.jpg', cardContent ='content of the event',cardFooter='footer'}) {
+function CardItem({cardContent,cardTitlee,cardImg,}) {
   return (
     <div>
       <div className="border border-white p-4 rounded-xl">
