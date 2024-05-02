@@ -30,7 +30,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<App1 />} />
+        <Route path="/IEEE-GNI" element={<App1 />} />
         {/* <Route path="/members" element={<AllMembers />} />
         <Route path="/events/:event" element={<Event/>} />
         <Route path='/code-of-conduct' element={<CodeOfConduct />} /> */}
