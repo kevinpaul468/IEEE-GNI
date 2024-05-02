@@ -22,7 +22,7 @@ function Societies() {
 
     <div> 
         <img className='rounded-full max-w-80' src={circuits_and_systems_society} alt="circuits and systems society" />
-        comunication society
+        circuits and systems society
         </div>
 
       <div> 
