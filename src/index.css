@@ -35,6 +35,35 @@ body {
 
 }
 
+
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.info {
+  padding: 20px;
+}
+
+.info h2 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.info p {
+  margin: 5px 0 0;
+  font-size: 1em;
+  color: #666;
+}
+
 .btn1 {
   background-image: linear-gradient(
     to right,
