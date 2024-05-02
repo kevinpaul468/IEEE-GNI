@@ -1,6 +1,6 @@
 import React from "react";
 import computer_society from "../assets/computer_society.png";
-import women_in_engineering from "../assets/women_in_engineering.png";
+// import women_in_engineering from "../assets/women_in_engineering.png";
 import communication_society from "../assets/communication_society.png";
 
 function Societies() {
@@ -13,11 +13,11 @@ function Societies() {
         <img src={computer_society} alt="computer society" />
       </div>
 
-      <div className="floatdiv">
-        <img src={women_in_engineering} alt="women in engineering" />
-      </div>
+      {/* <div>
+        <img src={women_in_engineering} alt='women in engineering'/>
+        women in engineering</div> */}
 
-      <div className="floatdiv">
+      <div> 
         <img src={communication_society} alt="communication society" />
       </div>
     </div>
