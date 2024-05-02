@@ -4,8 +4,8 @@ import { IoLogoLinkedin , IoLogoYoutube, IoLogoInstagram , IoLogoGithub} from "r
 
 function Contact() {
   return (
-    <div id='contact' className='flex gap-5 bg-slate-600 flex-col'>
-      <div className='flex gap-5 justify-center'>
+    <div id='contact' className='flex gap-5  flex-col'>
+      <div className='flex gap-5 justify-center items-center h-screen '>
         <a href='https://www.linkedin.com/company/ieee-gnitc/' target='_blank' rel='noreferrer'>
           <IoLogoLinkedin className='text-5xl' />
         </a>
@@ -19,7 +19,7 @@ function Contact() {
           <IoLogoGithub className='text-5xl' />
         </a>
       </div>
-      <b className='flex justify-center'>ALL RIGHTS RESERVED</b>
+      <b className='flex justify-center mb-8'>ALL RIGHTS RESERVED</b>
     </div>
   )
 }
