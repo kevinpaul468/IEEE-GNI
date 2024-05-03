@@ -9,7 +9,10 @@
 .cardImg {
   max-width: 500px;
 }
+.logobg{
+  background-color: rgba(227, 233, 232, 0.76) ;
 
+}
 .floatdiv {
    border-radius: 40%;
   transition: transform 10s ease;
