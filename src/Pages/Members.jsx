@@ -40,7 +40,7 @@ function Memebers() {
               <CarouselContent>
                 {MemInfo.map((data) => {
                   return (
-                    <CarouselItem className="basis-full" key={data.id}>
+                    <CarouselItem className="basis-96" key={data.id}>
                       <MemItem
                         memimg={data.img}
                         memname={data.name}

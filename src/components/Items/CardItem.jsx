@@ -11,7 +11,7 @@ function CardItem({ cardContent, cardTitlee, cardImg }) {
       </div>
       </div> */}
 
-      <div className="border border-white p-4 rounded-xl wf flex overflow-hidden">
+      <div className="border border-white p-8 rounded-xl wf flex overflow-hidden">
         <div className=" flex justify-center items-center">
           <img
             src={cardImg}
@@ -22,7 +22,7 @@ function CardItem({ cardContent, cardTitlee, cardImg }) {
         <div className=" flex  ml-8 flex-col">
           <h2 className="text-4xl txt text-center font-bold">{cardTitlee}</h2>
           <div className="dec txt text-center text-m">
-            <p className="border mt-8 wp">{cardContent}</p>
+            <p className=" p-5  mt-8 wp">{cardContent}</p>
           </div>
         </div>
       </div>

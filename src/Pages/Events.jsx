@@ -8,6 +8,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
+
 } from "@/components/ui/carousel";
 
 import CardItem from "@/components/Items/CardItem";
@@ -20,16 +21,9 @@ function Events() {
           <p>.</p>
           <div className=" flex justify-between items-center mt-6 gap-3">
             <div className=" heading ">Events</div>
-            <div className=" flex justify-center items-center mt-1 mr-6 gap-3">
-              <span className=" btn1 text-white border-2 rounded-xl text-lg cursor-pointer l">
-                Previous
-              </span>
-              <span className=" btn1 text-white border-2 rounded-xl text-lg cursor-pointer ">
-                Next
-              </span>
-            </div>
+           
           </div>
-          <div className="cerodrag m-6">
+          <div className="cerodrag  m-6">
             <Carousel
               opts={{
                 align: "start",
@@ -37,7 +31,7 @@ function Events() {
               }}
               plugins={[
                 Autoplay({
-                  delay: 3000,
+                  delay: 5000,
                 }),
               ]}
             >
@@ -56,6 +50,10 @@ function Events() {
                   );
                 })}
               </CarouselContent>
+              <div className="flex  gap-10 mt-5">  <CarouselPrevious />
+                <CarouselNext /></div>
+             
+
             </Carousel>
           </div>
         </div>
