@@ -20,10 +20,11 @@ function Memebers() {
           <div className=" flex justify-between items-center mt-6 gap-3">
             <div className=" heading ">Members </div>
             <div className=" flex justify-center items-center mt-1 mr-6 gap-3">
+              <a href="/IEEE-GNI/members">
               <span className=" btn1 text-white border-2 rounded-xl text-lg cursor-pointer l">
-               <a href="/IEEE-GNI/members">See All</a>
+               See All
               </span>
-            
+              </a>
             </div>
           </div>
           <div className=" memcard flex overflow-hidden gap-4 m-6">
