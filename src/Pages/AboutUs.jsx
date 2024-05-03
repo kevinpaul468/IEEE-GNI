@@ -13,9 +13,9 @@ function AboutUs() {
     <div id='aboutus' className='h-screen border-b-4'>
       <p>.</p>
       <div className="heading mt-4">About Us</div>
-      <div className=" flex gap-5 m-3  p-4 ">
-        <span className='border-2 p-4 w-3/5 bg-slate-900 border-white rounded-2xl txt'>{data1}</span>
-        <span className='border-2 p-4 w-3/5 bg-slate-900 border-white rounded-2xl txt'>{data2}</span>
+      <div className=" flex gap-8 m-3  p-4 ">
+        <span className='border-2 p-4 w-3/5 m-5 bg-slate-900 border-white rounded-2xl txt'>{data1}</span>
+        <span className='border-2 p-4 w-3/5 m-5 bg-slate-900 border-white rounded-2xl txt'>{data2}</span>
       </div>
      
     </div> 

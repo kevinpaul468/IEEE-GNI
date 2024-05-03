@@ -20,14 +20,14 @@ function Societies() {
         <img src={women_in_engineering} alt='women in engineering'/>
         women in engineering</div> */}
 
-    <div> 
+    <div className="floatdiv"> 
         <img className='rounded-full max-w-80' src={circuits_and_systems_society} alt="circuits and systems society" />
-        circuits and systems society
+ 
         </div>
 
-      <div> 
+      <div className="floatdiv"> 
         <img src={communication_society} alt="communication society" />
-        comunication society
+   
         </div>
 
       
