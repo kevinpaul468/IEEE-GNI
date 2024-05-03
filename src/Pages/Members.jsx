@@ -9,6 +9,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import FacultyInfo from "@/info/facultyinfo";
 
 function Memebers() {
   return (
@@ -20,7 +21,7 @@ function Memebers() {
             <div className=" heading ">Members </div>
             <div className=" flex justify-center items-center mt-1 mr-6 gap-3">
               <span className=" btn1 text-white border-2 rounded-xl text-lg cursor-pointer l">
-               See All
+               <a href="/IEEE-GNI/members">See All</a>
               </span>
             
             </div>
@@ -70,7 +71,7 @@ function Memebers() {
               ]}
             >
               <CarouselContent>
-                {MemInfo.map((data) => {
+                {FacultyInfo.map((data) => {
                   return (
                     <CarouselItem className="basis-80" key={data.id}>
                       <MemItem

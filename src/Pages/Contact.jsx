@@ -15,7 +15,7 @@ function Contact() {
         <a href='https://www.instagram.com/ieee_gnitc/' target='_blank' rel='noreferrer'>
           <IoLogoInstagram className='text-5xl' />
         </a>
-        <a href='github.com/IEEE-GNITC' target='_blank' rel='noreferrer'>
+        <a href='https://github.com/IEEE-GNITC' target='_blank' rel='noreferrer'>
           <IoLogoGithub className='text-5xl' />
         </a>
       </div>
