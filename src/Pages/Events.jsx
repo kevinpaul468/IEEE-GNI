@@ -1,6 +1,7 @@
 import React from "react";
 import EventInfo from "@/info/events";
 import Autoplay from "embla-carousel-autoplay";
+import { motion } from "framer-motion"
 
 import {
   Carousel,
@@ -12,10 +13,11 @@ import {
 } from "@/components/ui/carousel";
 
 import CardItem from "@/components/Items/CardItem";
+import { InfinityIcon } from "lucide-react";
 
 function Events() {
   return (
-    <div id="events">
+    <motion.div id="events" animate={{ scale:1 }} initial={{ scale:0}}>
       <div className="h-screen">
         <div className="   eventsbg border-b-8   w-full">
           <p>.</p>
@@ -58,7 +60,7 @@ function Events() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
