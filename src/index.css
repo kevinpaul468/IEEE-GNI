@@ -10,6 +10,17 @@
   max-width: 500px;
 }
 
+.floatdiv {
+   border-radius: 40%;
+  transition: transform 10s ease;
+  cursor: pointer;
+}
+
+.floatdiv :hover {
+  transform: translateX(-10px) translateY(-20px);
+}
+
+
 .wf{
   width: 95vw;
 }

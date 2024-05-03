@@ -12,9 +12,9 @@ import {
 
 function Memebers() {
   return (
-    <div id="members">
-      <div className="h-screen w-full">
-        <div className="    border-b-8   h-screen w-full">
+    <div id="members" className="">
+      <div className=" w-full">
+        <div className="    border-b-8   w-full">
           <p>.</p>
           <div className=" flex justify-between items-center mt-6 gap-3">
             <div className=" heading ">Members </div>
@@ -40,7 +40,7 @@ function Memebers() {
               <CarouselContent>
                 {MemInfo.map((data) => {
                   return (
-                    <CarouselItem className="basis-96" key={data.id}>
+                    <CarouselItem className="basis-80" key={data.id}>
                       <MemItem
                         memimg={data.img}
                         memname={data.name}
@@ -51,6 +51,40 @@ function Memebers() {
                 })}
               </CarouselContent>
             </Carousel>
+           
+          </div>
+          <div className="faclty ">
+            <div className="">
+            <div className=" heading ">Faculty Advisors</div>
+            </div>
+            <div className=" memcard flex overflow-hidden gap-4 m-6">
+            <Carousel
+              opts={{
+                align: "start",
+                loop: true,
+              }}
+              plugins={[
+                Autoplay({
+                  delay: 3000,
+                }),
+              ]}
+            >
+              <CarouselContent>
+                {MemInfo.map((data) => {
+                  return (
+                    <CarouselItem className="basis-80" key={data.id}>
+                      <MemItem
+                        memimg={data.img}
+                        memname={data.name}
+                        memrole={data.role}
+                      />
+                    </CarouselItem>
+                  );
+                })}
+              </CarouselContent>
+            </Carousel>
+           
+          </div>
           </div>
         </div>
       </div>
