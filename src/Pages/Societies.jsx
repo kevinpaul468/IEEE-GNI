@@ -12,23 +12,27 @@ function Societies() {
       id="societies"
       className="h-screen border-b-8 flex justify-around items-center"
     >
+      <a href='/IEEE-GNI/computersociety'>
       <div className="floatdiv">
-        <img src={computer_society} alt="computer society" />
+        <img src={computer_society} alt="Icomputer society" />
       </div>
+      </a>
 
       {/* <div className="floatdiv"> 
         <img src={women_in_engineering} alt='women in engineering'/>
         women in engineering</div> */}
 
-    <div className="floatdiv"> 
+      <a href='/IEEE-GNI/circuitsandsystemssociety'>
+      <div className="floatdiv"> 
         <img className='rounded-full max-w-80' src={circuits_and_systems_society} alt="circuits and systems society" />
- 
-        </div>
+      </div>
+      </a>
 
+      <a href='/IEEE-GNI/communicationsociety'>
       <div className="floatdiv"> 
         <img src={communication_society} alt="communication society" />
-   
-        </div>
+      </div>
+      </a>
 
       
     </div>

@@ -9,6 +9,10 @@ import Members from './Pages/Members'
 import Nav from './Pages/Nav'
 import Societies from './Pages/Societies'
 import NotFound from './Pages/NotFound'
+import ComputerSociety from './Pages/societies/ComputerSociety'
+import CommunicationSociety from './Pages/societies/CommunicationSociety'
+import CircuitsAndSystemsSociety from './Pages/societies/CircuitsAndSystemsSociety'
+
 
 function App1() {
   return (
@@ -32,6 +36,9 @@ const App = () => {
       <Routes>
         <Route path="/IEEE-GNI" element={<App1 />} />
         <Route path="/IEEE-GNI/members" element={<AllMem />} />
+        <Route path='/IEEE-GNI/ComputerSociety' element={<ComputerSociety/>} />
+        <Route path='/IEEE-GNI/CommunicationSociety' element={<CommunicationSociety/>} />
+        <Route path='/IEEE-GNI/CircuitsAndSystemsSociety' element={<CircuitsAndSystemsSociety/>} />
         {/* 
         <Route path="/events/:event" element={<Event/>} />
         <Route path='/code-of-conduct' element={<CodeOfConduct />} /> */}

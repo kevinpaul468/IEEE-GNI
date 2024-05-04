@@ -1,8 +1,11 @@
 import React from 'react'
-import { IoLogoLinkedin , IoLogoYoutube, IoLogoInstagram , IoLogoGithub} from "react-icons/io";
-
-
+import { IoLogoLinkedin , IoLogoYoutube, IoLogoGithub, IoLogoWhatsapp } from "react-icons/io";
+import { FaDiscord } from "react-icons/fa6";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaReddit } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
 function Contact() {
+  //discord
   return (
     <div id='contact' className='flex gap-5  flex-col'>
       <div className='flex gap-5 justify-center items-center h-screen '>
@@ -13,12 +16,25 @@ function Contact() {
           <IoLogoYoutube className='text-5xl' />
         </a>
         <a href='https://www.instagram.com/ieee_gnitc/' target='_blank' rel='noreferrer'>
-          <IoLogoInstagram className='text-5xl' />
+          <FaInstagramSquare className='text-5xl' />
+        </a>
+        <a href='https://twitter.com/IEEE_GNITC' target='_blank' rel='noreferrer'>
+          <FaSquareXTwitter className='text-5xl' />
+        </a>
+        <a href='https://www.reddit.com/r/ieee_gnitc/' target='_blank' rel='noreferrer'>
+          <FaReddit className='text-5xl' />
+        </a>
+        <a href='' target='_blank' rel='noreferrer'>
+          <IoLogoWhatsapp className='text-5xl' />
         </a>
         <a href='https://github.com/IEEE-GNITC' target='_blank' rel='noreferrer'>
           <IoLogoGithub className='text-5xl' />
         </a>
+        <a href='https://discord.gg/4G3jXV7' target='_blank' rel='noreferrer'>
+          <FaDiscord className='text-5xl' />
+        </a>
       </div>
+
       <b className='flex justify-center mb-8'>ALL RIGHTS RESERVED</b>
     </div>
   )
