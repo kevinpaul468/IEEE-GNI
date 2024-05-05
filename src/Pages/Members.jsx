@@ -39,10 +39,10 @@ function Memebers() {
                 }),
               ]}
             >
-              <CarouselContent>
+              <CarouselContent className="">
                 {MemInfo.map((data) => {
                   return (
-                    <CarouselItem className="basis-80" key={data.id}>
+                    <CarouselItem className=" basis-1/5 pl-2 md:pl-4" key={data.id}>
                       <MemItem
                         memimg={data.img}
                         memname={data.name}
@@ -74,7 +74,7 @@ function Memebers() {
               <CarouselContent>
                 {FacultyInfo.map((data) => {
                   return (
-                    <CarouselItem className="basis-80" key={data.id}>
+                    <CarouselItem className="basis-1/5" key={data.id}>
                       <MemItem
                         memimg={data.img}
                         memname={data.name}
