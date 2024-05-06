@@ -8,7 +8,7 @@ export default function Nav() {
       <div className="flex justify-between text-center  border-b-2 navBg border-gray-200   z-30 fixed top-0 w-full">
         <div className="flex justify-between text-center    ">
           <span className="m-4 text-slate-200	text-xl cursor-pointer">
-            <img src={logo} alt="Gnitc" className="max-w-36 rounded-xl logobg" />
+            <a href="#home"> <img src={logo} alt="Gnitc" className="max-w-36 rounded-xl logobg" /></a>  
           </span>
           <span className="m-4  mt-6 text-slate-200	 cursor-pointer">
             <a href="#aboutus">About us</a>

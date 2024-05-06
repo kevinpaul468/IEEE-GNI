@@ -1,5 +1,6 @@
 import React from 'react'
 import './../index.css'
+import { motion } from "framer-motion"
 
 function AboutUs() {
 
@@ -8,9 +9,9 @@ function AboutUs() {
 
   const data2= "The IEEE GNITC Chapter fosters a vibrant research culture on campus by providing a platform for students to develop their technical prowess. Through workshops, hackathons, seminars, and competitions, the chapter equips students with valuable skills and fosters a space for them to showcase their research and projects."
 
-
   return (
-    <div id='aboutus' className='h-screen border-b-4'>
+    <div id='aboutus'>
+    <motion.div  className='h-screen border-b-4' whileInView={{ x:0, scale:1 }} initial={{x:-100, scale:0}}>
       <p>.</p>
       <div className="heading mt-4">About Us</div>
       <div className=" flex gap-8 m-3  p-4 ">
@@ -18,7 +19,8 @@ function AboutUs() {
         <span className='border-2 p-4 w-3/5 m-5 bg-slate-900 border-white rounded-2xl txt'>{data2}</span>
       </div>
      
-    </div> 
+    </motion.div> 
+    </div>
   )
 }
 

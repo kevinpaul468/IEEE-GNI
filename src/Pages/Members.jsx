@@ -10,10 +10,16 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import FacultyInfo from "@/info/facultyinfo";
+import { motion } from "framer-motion";
 
 function Memebers() {
   return (
-    <div id="members" className="">
+    <div id="members">
+    <motion.div 
+    className="" 
+    whileInView={{ x:0, scale:1 }} 
+    initial={{x:-100, scale:0}}
+    >
       <div className=" w-full">
         <div className="    border-b-8   w-full">
           <p>.</p>
@@ -90,8 +96,10 @@ function Memebers() {
           </div>
         </div>
       </div>
+    </motion.div>
     </div>
   );
 }
 
 export default Memebers;
+

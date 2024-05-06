@@ -17,7 +17,8 @@ import { InfinityIcon } from "lucide-react";
 
 function Events() {
   return (
-    <motion.div id="events" animate={{ scale:1 }} initial={{ scale:0}}>
+    <div id="events">
+      <motion.div id="events" whileInView={{ x:0, scale:1 }} initial={{x:-100, scale:0}}>
       <div className="h-screen">
         <div className="   eventsbg border-b-8   w-full">
           <p>.</p>
@@ -61,6 +62,7 @@ function Events() {
         </div>
       </div>
     </motion.div>
+    </div>
   );
 }
 
