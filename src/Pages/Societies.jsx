@@ -14,7 +14,7 @@ function Societies() {
       className="h-screen border-b-4 flex justify-around items-center"
      
     >
-      <a href='/computersociety'>
+      <a href='/IEEE-GNI/computersociety'>
       <div className="floatdiv">
         <img src={computer_society} alt="Icomputer society" />
       </div>
@@ -24,13 +24,13 @@ function Societies() {
         <img src={women_in_engineering} alt='women in engineering'/>
         women in engineering</div> */}
 
-      <a href='/circuitsandsystemssociety'>
+      <a href='/IEEE-GNI/circuitsandsystemssociety'>
       <div className="floatdiv"> 
         <img className='rounded-full max-w-80' src={circuits_and_systems_society} alt="circuits and systems society" />
       </div>
       </a>
 
-      <a href='/communicationsociety'>
+      <a href='/IEEE-GNI/communicationsociety'>
       <div className="floatdiv"> 
         <img src={communication_society} alt="communication society" />
       </div>

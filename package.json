@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://IEEE-GNITC.github.io",
+  "homepage": "https://kevinpaul468.github.io/IEEE-GNI",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
