@@ -11,8 +11,8 @@ function CardItem({ cardContent, cardTitlee, cardImg }) {
       </div>
       </div> */}
 
-      <div className="border border-white p-8 rounded-xl wf flex overflow-hidden">
-        <div className=" flex justify-center items-center">
+      <div className="border border-white p-8 rounded-xl wf  flex overflow-hidden">
+        <div className=" flex justify-center  items-center">
           <img
             src={cardImg}
             alt="img "
