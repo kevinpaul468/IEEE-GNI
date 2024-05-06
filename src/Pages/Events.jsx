@@ -1,7 +1,7 @@
 import React from "react";
 import EventInfo from "@/info/events";
 import Autoplay from "embla-carousel-autoplay";
-import { motion } from "framer-motion"
+
 
 import {
   Carousel,
@@ -18,11 +18,11 @@ import { InfinityIcon } from "lucide-react";
 function Events() {
   return (
     <div id="events">
-      <motion.div id="events" whileInView={{ x:0, scale:1 }} initial={{x:-100, scale:0}}>
+      <div  >
       <div className="h-screen">
         <div className="   eventsbg border-b-8   w-full">
           <p>.</p>
-          <div className=" flex justify-between items-center mt-6 gap-3">
+          <div className=" flex justify-between items-center mt-12 gap-3">
             <div className=" heading ">Events</div>
            
           </div>
@@ -61,7 +61,7 @@ function Events() {
           </div>
         </div>
       </div>
-    </motion.div>
+    </div>
     </div>
   );
 }

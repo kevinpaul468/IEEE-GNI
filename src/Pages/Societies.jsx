@@ -4,15 +4,15 @@ import computer_society from '../assets/computer_society.png'
 import communication_society from '../assets/communication_society.png'
 import circuits_and_systems_society from '../assets/circuits_and_systems_society.png'
 import { Radius } from 'lucide-react'
-import { motion } from 'framer-motion'
+
 
 function Societies() {
   return (
     <div>
-    <motion.div
+    <div
       id="societies"
       className="h-screen border-b-8 flex justify-around items-center"
-      whileInView={{ x:0, scale:1 }} initial={{x:-100, scale:0}}
+     
     >
       <a href='/IEEE-GNI/computersociety'>
       <div className="floatdiv">
@@ -37,7 +37,7 @@ function Societies() {
       </a>
 
       
-    </motion.div>
+    </div>
     </div>
   );
 }

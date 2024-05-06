@@ -1,6 +1,6 @@
 import React from 'react'
 import './../index.css'
-import { motion } from "framer-motion"
+
 
 function AboutUs() {
 
@@ -11,15 +11,15 @@ function AboutUs() {
 
   return (
     <div id='aboutus'>
-    <motion.div  className='h-screen border-b-4' whileInView={{ x:0, scale:1 }} initial={{x:-100, scale:0}}>
+    <div  className='h-screen border-b-4'>
       <p>.</p>
-      <div className="heading mt-4">About Us</div>
+      <div className="heading  mt-12">About Us</div>
       <div className=" flex gap-8 m-3  p-4 ">
         <span className='border-2 p-4 w-3/5 m-5 bg-slate-900 border-white rounded-2xl txt'>{data1}</span>
         <span className='border-2 p-4 w-3/5 m-5 bg-slate-900 border-white rounded-2xl txt'>{data2}</span>
       </div>
      
-    </motion.div> 
+    </div> 
     </div>
   )
 }

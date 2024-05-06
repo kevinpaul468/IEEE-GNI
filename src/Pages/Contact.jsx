@@ -9,14 +9,14 @@ import { FaDiscord } from "react-icons/fa6";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaReddit } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
-import {motion} from "framer-motion";
+
 
 
 function Contact() {
   //discord
   return (
     <div id="contact">
-    <motion.div  className="h-screen" whileInView={{ x:0, scale:1 }} initial={{x:-100, scale:0}}>
+    <div  className="h-screen" >
       <p>.</p>
       <div className="flex gap-5 justify-center items-center m-8 mt-20 ">
         <a
@@ -81,7 +81,7 @@ function Contact() {
       </div>
 
       <b className="flex justify-center mb-8">ALL RIGHTS RESERVED</b>
-    </motion.div>
+    </div>
     </div>
   );
 }
