@@ -1,0 +1,32 @@
+ <div className="faclty ">
+            <div className="">
+            <div className=" heading ">Faculty Advisors</div>
+            </div>
+            <div className=" memcard flex overflow-hidden gap-4 m-6">
+            <Carousel
+              opts={{
+                align: "start",
+                loop: true,
+              }}
+              plugins={[
+                Autoplay({
+                  delay: 3000,
+                }),
+              ]}
+            >
+              <CarouselContent>
+                {FacultyInfo.map((data) => {
+                  return (
+                    <CarouselItem className="basis-1/3" key={data.id}>
+                      <MemItem
+                        memimg={data.img}
+                        memname={data.name}
+                        memrole={data.role}
+                      />
+                    </CarouselItem>
+                  );
+                })}
+              </CarouselContent>
+            </Carousel>
+           
+          </div>

@@ -16,7 +16,7 @@ function Memebers() {
     <div id="members">
       <div>
         <div className=" w-full">
-          <div className="    border-b-8  h-screen w-full">
+          <div className="    border-b-4  h-screen w-full">
             <p>.</p>
             <div className=" flex justify-between items-center mt-12 gap-3">
               <div className=" heading ">Members </div>

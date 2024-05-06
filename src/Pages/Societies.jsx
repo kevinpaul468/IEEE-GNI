@@ -11,7 +11,7 @@ function Societies() {
     <div>
     <div
       id="societies"
-      className="h-screen border-b-8 flex justify-around items-center"
+      className="h-screen border-b-4 flex justify-around items-center"
      
     >
       <a href='/IEEE-GNI/computersociety'>

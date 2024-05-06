@@ -20,7 +20,7 @@ function Events() {
     <div id="events">
       <div  >
       <div className="h-screen">
-        <div className="   eventsbg border-b-8   w-full">
+        <div className="   eventsbg border-b-4   w-full">
           <p>.</p>
           <div className=" flex justify-between items-center mt-12 gap-3">
             <div className=" heading ">Events</div>

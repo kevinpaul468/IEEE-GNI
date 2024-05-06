@@ -22,6 +22,9 @@ export default function Nav() {
           <span className="m-4 mt-6 text-slate-200	 cursor-pointer">
             <a href="#members">Members</a>
           </span>
+          <span className="m-4 mt-6 text-slate-200	 cursor-pointer">
+            <a href="#advisors">Faculty Advisors</a>
+          </span>
           <span className="m-4  mt-6 mr-10 text-slate-200	 cursor-pointer">
             <a href="#contact">Contact</a>
           </span >

@@ -12,6 +12,7 @@ import NotFound from './Pages/NotFound'
 import ComputerSociety from './Pages/societies/ComputerSociety'
 import CommunicationSociety from './Pages/societies/CommunicationSociety'
 import CircuitsAndSystemsSociety from './Pages/societies/CircuitsAndSystemsSociety'
+import FacltyAdv from './Pages/FacltyAdv'
 
 
 function App1() {
@@ -23,6 +24,7 @@ function App1() {
       <Societies />
       <Events />
       <Members />
+      <FacltyAdv />
       <Contact />
     
   
