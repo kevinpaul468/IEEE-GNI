@@ -10,14 +10,11 @@
   max-width: 500px;
 }
 
-
-
-.logobg{
-  background-color: rgba(248, 255, 254, 0.76) ;
-
+.logobg {
+  background-color: rgba(248, 255, 254, 0.76);
 }
 .floatdiv {
-   border-radius: 40%;
+  border-radius: 40%;
   transition: transform 10s ease;
   cursor: pointer;
 }
@@ -26,8 +23,7 @@
   transform: translateX(-10px) translateY(-20px);
 }
 
-
-.wf{
+.wf {
   width: 95vw;
 }
 .txt {
@@ -52,9 +48,7 @@ body {
     rgba(8, 120, 129, 1) 56%,
     rgba(52, 120, 177, 1) 90%
   );
-
 }
-
 
 .card {
   width: 300px;
@@ -109,11 +103,10 @@ body {
   text-decoration: none;
 }
 
-
 .heading {
   font-size: 70px;
   margin-left: 10px;
-  background: -webkit-linear-gradient(#eee, #333);
+  color: #fff;
 
-  -webkit-text-fill-color: transparent;
+
 }
