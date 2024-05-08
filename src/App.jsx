@@ -23,6 +23,7 @@ function App1() {
   return (
     <>
       <Nav/>
+      <Home />
      
   
     </>

@@ -5,8 +5,8 @@ import logo from "../assets/n-logo.png";
 export default function Nav() {
   return (
     <div className="">
-      <div className="flex justify-between text-center  border-b-2 navBg border-gray-200   z-30 fixed top-0 w-full">
-        <div className="flex justify-between text-center  w-full  ">
+      <div className="flex justify-between text-center  border-b-2 navBg border-gray-200 md:h-20 z-30 fixed top-0 w-full">
+        <div className="flex justify-between md:justify-start text-center  w-full  ">
           <span className="m-4 hidden md:flex text-slate-200	text-xl cursor-pointer">
             <a href="#home"> <img src={logo} alt="Gnitc" className="max-w-36 rounded-xl logobg" /></a>  
           </span>
@@ -32,7 +32,7 @@ export default function Nav() {
         </div>
         <div className=" justify-between text-center txt gap-14 mr-10 hidden md:flex  mt-6 m-5">
           <span className="cursor-pointer"><a href="https://www.ieee.org/">IEEE.org</a></span>
-          <span className="cursor-pointer"><a href="https://ieeehyd.org/">IEEE Hyderabad</a></span>
+          <span className="cursor-pointer md:w-32"><a href="https://ieeehyd.org/">IEEE Hyderabad</a></span>
         </div>
       </div>
     </div>
