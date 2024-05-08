@@ -10,9 +10,7 @@
   max-width: 500px;
 }
 
-.bg-blur {
 
-}
 
 .logobg{
   background-color: rgba(248, 255, 254, 0.76) ;
@@ -116,6 +114,6 @@ body {
   font-size: 70px;
   margin-left: 10px;
   background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
+
   -webkit-text-fill-color: transparent;
 }

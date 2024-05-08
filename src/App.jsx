@@ -15,6 +15,7 @@ import CircuitsAndSystemsSociety from './Pages/societies/CircuitsAndSystemsSocie
 import FacltyAdv from './Pages/FacltyAdv'
 import AllEvents from './Pages/AllEvents.jsx'
 import CodeOfConduct from './Pages/CodeOfConduct'
+import FutureEventTimeLine from './Pages/FutureEventTimeLine'
 
 
 
@@ -29,6 +30,8 @@ function App1() {
       <Members />
       <FacltyAdv />
       <Contact />
+
+      <FutureEventTimeLine />
     
   
     </>
