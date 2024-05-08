@@ -11,12 +11,12 @@ function AboutUs() {
 
   return (
     <div id='aboutus'>
-    <div  className='h-screen border-b-4'>
+    <div  className=' md:min-h-screen border-b-4'>
       <p>.</p>
-      <div className="heading  mt-12">About Us</div>
-      <div className=" flex gap-8 m-3  p-4 ">
-        <span className='border-2 p-4 w-3/5 m-5 bg-slate-900 border-white rounded-2xl txt'>{data1}</span>
-        <span className='border-2 p-4 w-3/5 m-5 bg-slate-900 border-white rounded-2xl txt'>{data2}</span>
+      <div className="heading  mt-10 text-center">About Us</div>
+      <div className=" flex gap-2 m-1 flex-col md:flex-row  p-4 ">
+        <span className='border-2 p-4 md:w-3/5 m-5 bg-slate-900 border-white rounded-2xl txt'>{data1}</span>
+        <span className='border-2 p-4 md:w-3/5 m-5 bg-slate-900 border-white rounded-2xl txt'>{data2}</span>
       </div>
      
     </div> 

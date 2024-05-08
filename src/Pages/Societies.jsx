@@ -11,12 +11,12 @@ function Societies() {
     <div>
     <div
       id="societies"
-      className="h-screen border-b-4 flex justify-around items-center"
+      className="h-screen border-b-4 flex flex-col md:flex-row justify-around items-center"
      
     >
       <a href='/IEEE-GNI/computersociety'>
       <div className="floatdiv">
-        <img src={computer_society} alt="Icomputer society" />
+        <img src={computer_society} alt="Icomputer society" className='w-48 md:w-80'/>
       </div>
       </a>
 
@@ -26,13 +26,13 @@ function Societies() {
 
       <a href='/IEEE-GNI/circuitsandsystemssociety'>
       <div className="floatdiv"> 
-        <img className='rounded-full max-w-80' src={circuits_and_systems_society} alt="circuits and systems society" />
+        <img className='rounded-full w-48  md:w-80' src={circuits_and_systems_society} alt="circuits and systems society" />
       </div>
       </a>
 
       <a href='/IEEE-GNI/communicationsociety'>
-      <div className="floatdiv"> 
-        <img src={communication_society} alt="communication society" />
+      <div className="floatdiv "> 
+        <img src={communication_society} alt="communication society" className='md:w-80  w-48 ' />
       </div>
       </a>
 

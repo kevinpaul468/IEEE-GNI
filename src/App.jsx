@@ -24,6 +24,8 @@ function App1() {
     <>
       <Nav/>
       <Home />
+      <AboutUs />
+      <Societies />
      
   
     </>
