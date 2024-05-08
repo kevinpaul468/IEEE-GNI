@@ -79,7 +79,7 @@ function Contact() {
         <h2 className="">Important Links</h2>
       </div>
       </div>
-
+      <a href="IEEE-GNI/code-of-conduct"><b className="flex justify-center mb-8">IEEE GNITC CODE OF CONDUCT</b></a>
       <b className="flex justify-center mb-8">ALL RIGHTS RESERVED</b>
     </div>
     </div>

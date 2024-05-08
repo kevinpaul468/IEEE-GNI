@@ -13,6 +13,9 @@ import ComputerSociety from './Pages/societies/ComputerSociety'
 import CommunicationSociety from './Pages/societies/CommunicationSociety'
 import CircuitsAndSystemsSociety from './Pages/societies/CircuitsAndSystemsSociety'
 import FacltyAdv from './Pages/FacltyAdv'
+import AllEvents from './Pages/AllEvents.jsx'
+import CodeOfConduct from './Pages/CodeOfConduct'
+
 
 
 function App1() {
@@ -41,9 +44,9 @@ const App = () => {
         <Route path='/IEEE-GNI/ComputerSociety' element={<ComputerSociety/>} />
         <Route path='/IEEE-GNI/CommunicationSociety' element={<CommunicationSociety/>} />
         <Route path='/IEEE-GNI/CircuitsAndSystemsSociety' element={<CircuitsAndSystemsSociety/>} />
-        {/* 
-        <Route path="/events/:event" element={<Event/>} />
-        <Route path='/code-of-conduct' element={<CodeOfConduct />} /> */}
+        <Route path="/IEEE-GNI/events" element={<AllEvents />} />
+        <Route path="/IEEE-GNI/events/:event" element={<Event/>} />
+        <Route path='/IEEE-GNI/code-of-conduct' element={<CodeOfConduct />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
     </Router>
@@ -51,3 +54,5 @@ const App = () => {
 }
 
 export default App
+
+
