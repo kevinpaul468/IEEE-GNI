@@ -53,10 +53,15 @@ function Events() {
                   );
                 })}
               </CarouselContent>
+              <div className="flex justify-between ">
               <div className="flex  gap-10 mt-5">  <CarouselPrevious />
-                <CarouselNext /></div>
-             
-
+                <CarouselNext />
+              </div>
+              <a href="/IEEE-GNI/events">
+              <button className="btn1 text-white border-2 rounded-xl text-lg cursor-pointer l mt-5 ">View All</button>
+              </a>
+                </div>
+                ``
             </Carousel>
           </div>
         </div>
@@ -65,5 +70,7 @@ function Events() {
     </div>
   );
 }
+
+
 
 export default Events;
