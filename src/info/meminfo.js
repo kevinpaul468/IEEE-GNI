@@ -1,42 +1,54 @@
+import chandrakiranreddykasireddy from "../assets/people/ChandrakiranReddyKasireddy.png";
+import mohammedabdulrahman from "../assets/people/MohammedAbdulRahman.png";
+import saitheja from "../assets/people/SaiTheja.png";
+import anjali from "../assets/people/Anjali.png";
+import akash from "../assets/people/Akash.png";
+import mohitha from "../assets/people/MohithaVinnakota.png";
+import pranav from "../assets/people/PranavVojjala.png";
+import imran from "../assets/people/MohammedImranAli.png";
+
+
+
+
 const MemInfo = [
   {
     name: "Chandra Kiran Reddy Kasireddy",
-    img: "../../assets/people/ChandrakiranReddyKasireddy.png",
+    img: chandrakiranreddykasireddy,
     role: "Chair",
   },
   {
     name: "Mohammed Abdul Rahman",
-    img: "src/assets/people/MohammedAbdulRahman.png",
+    img: mohammedabdulrahman,
     role: "Vice Chair",
   },
   {
     name: "Kunta Sai Theja",
-    img: "src/assets/people/SaiTheja.png",
+    img: saitheja,
     role: "Secretary",
   },
   {
     name: "Anjali Chowdary Mutyala",
-    img: "src/assets/people/Anjali.png",
+    img: anjali,
     role: "Treasurer",
   },
   {
     name: "G. Akash",
-    img: "src/assets/people/Akash.png",
+    img: akash,
     role: "Web Master",
   },
   {
     name: "V. Mohitha",
-    img: "src/assets/people/MohithaVinnakota.png",
+    img: mohitha,
     role: "Public Relations",
   },
   {
     name: "Pranav Vojjala",
-    img: "src/assets/people/PranavVojjala.png",
+    img: pranav,
     role: "Computer Society Chair",
   },
   {
     name: "Mohammed Imran Ali",
-    img: "src/assets/people/MohammedImranAli.png",
+    img: imran,
     role: "Communication Society Chair",
   },
   {
