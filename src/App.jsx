@@ -36,11 +36,11 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/IEEE-GNI" element={<App1 />} />
-        <Route path="/IEEE-GNI/members" element={<AllMem />} />
-        <Route path='/IEEE-GNI/ComputerSociety' element={<ComputerSociety/>} />
-        <Route path='/IEEE-GNI/CommunicationSociety' element={<CommunicationSociety/>} />
-        <Route path='/IEEE-GNI/CircuitsAndSystemsSociety' element={<CircuitsAndSystemsSociety/>} />
+        <Route path="/" element={<App1 />} />
+        <Route path="/members" element={<AllMem />} />
+        <Route path='/ComputerSociety' element={<ComputerSociety/>} />
+        <Route path='/CommunicationSociety' element={<CommunicationSociety/>} />
+        <Route path='/CircuitsAndSystemsSociety' element={<CircuitsAndSystemsSociety/>} />
         {/* 
         <Route path="/events/:event" element={<Event/>} />
         <Route path='/code-of-conduct' element={<CodeOfConduct />} /> */}
