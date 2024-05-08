@@ -23,16 +23,7 @@ function App1() {
   return (
     <>
       <Nav/>
-      <Home />
-      <AboutUs/>
-      <Societies />
-      <Events />
-      <Members />
-      <FacltyAdv />
-      <Contact />
-
-      <FutureEventTimeLine />
-    
+     
   
     </>
   )
