@@ -26,6 +26,7 @@ function App1() {
       <Home />
       <AboutUs />
       <Societies />
+      <Events />
      
   
     </>
