@@ -1,12 +1,11 @@
 import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import {
-    IoLogoLinkedin,
-    IoLogoYoutube,
-    IoLogoGithub,
-    IoLogoWhatsapp,
-  } from "react-icons/io";
+import IEEE from '../assets/IEEE.png';
+import computer_society from '../assets/computer_society.png'
+// import women_in_engineering from '../assets/women_in_engineering.png'
+import communication_society from '../assets/communication_society.png'
+import circuits_and_systems_society from '../assets/circuits_and_systems_society.png'
 
 function FutureEventTimeLine() {
   return (
@@ -21,92 +20,32 @@ function FutureEventTimeLine() {
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2011 - present"
+    date="25th May 2024"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<IoLogoGithub/>}
+    icon={<img src={IEEE} alt="IEEE" className='rounded-full'/>}
   >
-    <h3 className="vertical-timeline-element-title">Creative Director</h3>
-    <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+    <h3 className="vertical-timeline-element-title">IEEE GNITC Inauguration</h3>
+    <h5 className="vertical-timeline-element-subtitle">Lets kick start the IEEE GNITC student chapter</h5>
     <p>
-      Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+      
     </p>
   </VerticalTimelineElement>
+
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    date="2010 - 2011"
+    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    date="25th May 2024"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<IoLogoGithub />}
+    icon={<img src={computer_society} alt="computer society" className='rounded-full'/>}
   >
-    <h3 className="vertical-timeline-element-title">Art Director</h3>
-    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+    <h3 className="vertical-timeline-element-title">National level online project competition</h3>
+    <h5 className="vertical-timeline-element-subtitle">build, code ,present</h5>
     <p>
-      Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+      
     </p>
   </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2008 - 2010"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<IoLogoGithub />}
-  >
-    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-    <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-    <p>
-      User Experience, Visual Design
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="2006 - 2008"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<IoLogoGithub />}
-  >
-    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-    <p>
-      User Experience, Visual Design
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    date="April 2013"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon={<IoLogoGithub />}
-  >
-    <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-    <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-    <p>
-      Strategy, Social Media
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    date="November 2012"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon={<IoLogoGithub />}
-  >
-    <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-    <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-    <p>
-      Creative Direction, User Experience, Visual Design
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    date="2002 - 2006"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    icon={<IoLogoGithub />}
-  >
-    <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-    <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-    <p>
-      Creative Direction, Visual Design
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-    icon={<IoLogoGithub />}
-  />
+  
 </VerticalTimeline>
     </div>
   )

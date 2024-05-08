@@ -61,7 +61,7 @@ function Events() {
               <button className="btn1 text-white border-2 rounded-xl text-lg cursor-pointer l mt-5 ">View All</button>
               </a>
                 </div>
-                ``
+              
             </Carousel>
           </div>
         </div>
@@ -70,7 +70,6 @@ function Events() {
     </div>
   );
 }
-
 
 
 export default Events;
