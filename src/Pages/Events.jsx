@@ -54,10 +54,10 @@ function Events() {
                 })}
               </CarouselContent>
               <div className="flex justify-between ">
-              <div className="flex  gap-10 mt-5">  <CarouselPrevious />
+              <div className="hidden md:flex gap-10 mt-5">  <CarouselPrevious />
                 <CarouselNext />
               </div>
-              <a href="/IEEE-GNI/events">
+              <a href="/IEEE-GNI/events" className="mt-7">
               <button className="btn1 text-white border-2 rounded-xl text-lg cursor-pointer l mt-5 ">View All</button>
               </a>
                 </div>

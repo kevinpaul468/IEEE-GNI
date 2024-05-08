@@ -10,6 +10,22 @@
   max-width: 500px;
 }
 
+@media screen and (max-width: 600px) {
+  .evecard{
+    flex-direction: column;
+    padding: 2px;
+    height: 38rem;
+    width: 5rem;
+
+  }
+  .wf{
+    width: 60vw;
+  }
+  .eveimg{
+    max-width: fit-content;
+  }
+}
+
 .logobg {
   background-color: rgba(248, 255, 254, 0.76);
 }
@@ -24,7 +40,7 @@
 }
 
 .wf {
-  width: 95vw;
+  width: 85vw;
 }
 .txt {
   color: white;

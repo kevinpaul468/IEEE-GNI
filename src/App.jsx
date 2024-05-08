@@ -24,9 +24,10 @@ function App1() {
     <>
       <Nav/>
       <Home />
-      <AboutUs/>
+      <AboutUs />
       <Societies />
       <Events />
+<<<<<<< HEAD
       <FutureEventTimeLine />
       <Members />
       <FacltyAdv />
@@ -34,6 +35,9 @@ function App1() {
 
       
     
+=======
+     
+>>>>>>> 120f02a04cac8f1fc991fa82abd0f2c3d41398ff
   
     </>
   )

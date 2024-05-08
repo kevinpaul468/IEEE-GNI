@@ -5,13 +5,14 @@ import logo from "../assets/n-logo.png";
 export default function Nav() {
   return (
     <div className="">
-      <div className="flex justify-between text-center  border-b-2 navBg border-gray-200   z-30 fixed top-0 w-full">
-        <div className="flex justify-between text-center    ">
-          <span className="m-4 text-slate-200	text-xl cursor-pointer">
+      <div className="flex justify-between text-center  border-b-2 navBg border-gray-200 md:h-20 z-30 fixed top-0 w-full">
+        <div className="flex justify-between md:justify-start text-center  w-full  ">
+          <span className="m-4 hidden md:flex text-slate-200	text-xl cursor-pointer">
             <a href="#home"> <img src={logo} alt="Gnitc" className="max-w-36 rounded-xl logobg" /></a>  
           </span>
           <span className="m-4  mt-6 text-slate-200	 cursor-pointer">
-            <a href="#aboutus">About us</a>
+            <a href="#aboutus" className="hidden md:flex">About us</a>
+            <a href="#aboutus" className=" md:hidden ">About</a>
           </span>
           <span className="m-4  mt-6 text-slate-200	 cursor-pointer">
             <a href="#societies">Societies</a>
@@ -22,16 +23,16 @@ export default function Nav() {
           <span className="m-4 mt-6 text-slate-200	 cursor-pointer">
             <a href="#members">Members</a>
           </span>
-          <span className="m-4 mt-6 text-slate-200	 cursor-pointer">
+          <span className="m-4 mt-6 text-slate-200	hidden md:flex cursor-pointer">
             <a href="#advisors">Faculty Advisors</a>
           </span>
-          <span className="m-4  mt-6 mr-10 text-slate-200	 cursor-pointer">
+          <span className="m-4  mt-6 mr-10 text-slate-200	 hidden md:flex cursor-pointer">
             <a href="#contact">Contact</a>
           </span >
         </div>
-        <div className="flex justify-between text-center txt gap-14 mr-10  mt-6 m-5">
+        <div className=" justify-between text-center txt gap-14 mr-10 hidden md:flex  mt-6 m-5">
           <span className="cursor-pointer"><a href="https://www.ieee.org/">IEEE.org</a></span>
-          <span className="cursor-pointer"><a href="https://ieeehyd.org/">IEEE Hyderabad</a></span>
+          <span className="cursor-pointer md:w-32"><a href="https://ieeehyd.org/">IEEE Hyderabad</a></span>
         </div>
       </div>
     </div>
