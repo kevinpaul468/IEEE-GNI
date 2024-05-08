@@ -21,7 +21,7 @@ function Home() {
        
          
 
-          <div className="  flex  p-2  mt-24 ml-4  md: ">
+          <div className="  flex  p-2  mt-24 ml-4  md:mt-52 ">
             <img src={HomeLogo} alt="logo" className="h-20 mt-6 md:h-40" />
             <span className="text-4xl text-white mt-12 md:mt-14 md:text-8xl md:w- wrap font-serif">
              
