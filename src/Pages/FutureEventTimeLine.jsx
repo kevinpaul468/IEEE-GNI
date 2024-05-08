@@ -15,9 +15,10 @@ function FutureEventTimeLine() {
           <div className="   eventsbg border-b-4   w-full">
             <p>.</p>
             <div className=" flex justify-between items-center mt-12 gap-3">
-              <div className=" heading ">Events</div>
+              <div className=" heading ">Upcoming Events</div>
             </div>
             <VerticalTimeline>
+      <a href='/IEEE-GNI/events/Inauguration'>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
@@ -32,6 +33,7 @@ function FutureEventTimeLine() {
           
         </p>
       </VerticalTimelineElement>
+      </a>
     
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
