@@ -27,7 +27,13 @@ function App1() {
       <AboutUs />
       <Societies />
       <Events />
-     
+      <FutureEventTimeLine />
+      <Members />
+      <FacltyAdv />
+      <Contact />
+
+      
+    
   
     </>
   )

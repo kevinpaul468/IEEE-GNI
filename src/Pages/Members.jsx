@@ -21,7 +21,7 @@ function Memebers() {
             <div className=" flex justify-between items-center mt-12 gap-3">
               <div className=" heading ">Members </div>
               <div className=" flex justify-center items-center mt-1 mr-6 gap-3">
-                <a href="/members">
+                <a href="/IEEE-GNI/members">
                   <span className=" btn1 text-white border-2 rounded-xl text-lg cursor-pointer l">
                     See All
                   </span>
@@ -40,12 +40,12 @@ function Memebers() {
                   }),
                 ]}
               >
-                <CarouselContent className="">
-                  {MemInfo.map((data) => {
+                <CarouselContent>
+                  {MemInfo.map((data,index) => {
                     return (
                       <CarouselItem
                         className=" basis-1/5 pl-2 md:pl-4"
-                        key={data.id}
+                        key={index}
                       >
                         <MemItem
                           memimg={data.img}

@@ -1,77 +1,12 @@
 import React from "react";
 import MemItem from "@/components/Items/MemItem";
+import AllMemInfo from "@/info/allmeminfo";
 
 import MemInfo from "@/info/meminfo";
 
 
 
 function Allmem() {
-  const OtherMemInfo =[{
-    name: "K. Raviteja",
-    img: "https://media.wired.com/photos/650399af65d83ff288720473/1:1/w_1285,h_1285,c_limit/If-Elon-Musk-Had-Been-a-Happy-Child,-Would-He-Still-Be-Launching-Rockets--Business-Redux-h_16082330.jpg",
-    role: "Organising Head",
-  },
-  {
-    name: "Mohammed Qumar",
-    img: "https://media.wired.com/photos/650399af65d83ff288720473/1:1/w_1285,h_1285,c_limit/If-Elon-Musk-Had-Been-a-Happy-Child,-Would-He-Still-Be-Launching-Rockets--Business-Redux-h_16082330.jpg",
-    role: "Organising Co Head",
-  },
-  {
-    name: "Nitya Peri",
-    img: "https://media.wired.com/photos/650399af65d83ff288720473/1:1/w_1285,h_1285,c_limit/If-Elon-Musk-Had-Been-a-Happy-Child,-Would-He-Still-Be-Launching-Rockets--Business-Redux-h_16082330.jpg",
-    role: "Documentaion Head",
-  },
-  {
-    name: "Mohammad Yaseen",
-    img: "https://media.wired.com/photos/650399af65d83ff288720473/1:1/w_1285,h_1285,c_limit/If-Elon-Musk-Had-Been-a-Happy-Child,-Would-He-Still-Be-Launching-Rockets--Business-Redux-h_16082330.jpg",
-    role: "Documentaion Executive",
-  },
-  {
-    name: "Navdeep",
-    img: "https://media.wired.com/photos/650399af65d83ff288720473/1:1/w_1285,h_1285,c_limit/If-Elon-Musk-Had-Been-a-Happy-Child,-Would-He-Still-Be-Launching-Rockets--Business-Redux-h_16082330.jpg",
-    role: "Proposals manager",
-  },
-  {
-    name: "Jatin",
-    img: "https://media.wired.com/photos/650399af65d83ff288720473/1:1/w_1285,h_1285,c_limit/If-Elon-Musk-Had-Been-a-Happy-Child,-Would-He-Still-Be-Launching-Rockets--Business-Redux-h_16082330.jpg",
-    role: "Social Media",
-  },
-
-  {
-    name: "Shiva Shankar Bijjala",
-    img: "https://media.wired.com/photos/650399af65d83ff288720473/1:1/w_1285,h_1285,c_limit/If-Elon-Musk-Had-Been-a-Happy-Child,-Would-He-Still-Be-Launching-Rockets--Business-Redux-h_16082330.jpg",
-    role: "Marketing",
-  },
-  {
-    name: "P.yashwanth",
-    img: "https://media.wired.com/photos/650399af65d83ff288720473/1:1/w_1285,h_1285,c_limit/If-Elon-Musk-Had-Been-a-Happy-Child,-Would-He-Still-Be-Launching-Rockets--Business-Redux-h_16082330.jpg",
-    role: "Publicity",
-  },
-  {
-    name: "Sumidha",
-    img: "https://media.wired.com/photos/650399af65d83ff288720473/1:1/w_1285,h_1285,c_limit/If-Elon-Musk-Had-Been-a-Happy-Child,-Would-He-Still-Be-Launching-Rockets--Business-Redux-h_16082330.jpg",
-    role: "Design",
-  },
-  {
-    name: "Uma Maheshwar",
-    img: "https://media.wired.com/photos/650399af65d83ff288720473/1:1/w_1285,h_1285,c_limit/If-Elon-Musk-Had-Been-a-Happy-Child,-Would-He-Still-Be-Launching-Rockets--Business-Redux-h_16082330.jpg",
-    role: "Student Representative",
-  },
-  {
-    name: "Sumith Reddy",
-    img: "https://media.wired.com/photos/650399af65d83ff288720473/1:1/w_1285,h_1285,c_limit/If-Elon-Musk-Had-Been-a-Happy-Child,-Would-He-Still-Be-Launching-Rockets--Business-Redux-h_16082330.jpg",
-    role: "Web Team",
-  },
-  {
-    name: "Kevin Paul Reddy Janagari",
-    img: "https://media.wired.com/photos/650399af65d83ff288720473/1:1/w_1285,h_1285,c_limit/If-Elon-Musk-Had-Been-a-Happy-Child,-Would-He-Still-Be-Launching-Rockets--Business-Redux-h_16082330.jpg",
-    role: "Web Team",
-  },
-  ];
-  
-  
-  
-  const AllMemInfo = [...MemInfo, ...OtherMemInfo];
 
   return (
     <div>

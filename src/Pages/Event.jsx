@@ -1,9 +1,9 @@
 const exp = require("constants")
 
-const Event = () => {
+const Event = (event) => {
     return (
         <div>
-            <h1>Event</h1>
+            <h1>{event}</h1>
         </div>
     )
 }
